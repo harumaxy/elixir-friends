@@ -5,3 +5,5 @@ config :friends, Friends.Repo,
   username: "postgres",
   password: "postgres",
   hostname: "localhost"
+
+config :friends, ecto_repos: [Friends.Repo]
